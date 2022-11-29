@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=IM+FELL+Great+Primer+SC&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>inventory</title>
+    <link rel="shortcut icon" href="bluelogo.jfif" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="content">
+        <div class="buttons">
+            <button id="save-as">Save as</button>        
+            <button id="print">Print</button>
+        </div>
+        <dvi class="step-row">
+            <div id="progress"></div>
+            <div class="step-col" id="inventaire"><small>Inventaire</small></div>
+            <div class="step-col" id="closet"><small>Closet</small></div>
+            <div class="step-col" id="projects"><small>Projects</small></div>
+        </dvi>
+        <div class="tables">
+            <div class="searchbox">
+                <span class="search">
+                    <i class="uil uil-search"></i>
+                </span>
+                <input type="text" placeholder="Search">
+                <i class="uil uil-filter"></i>
+            </div>
+            <table class="table1">
+                <thead>
+                    <tr>
+                         <th> <input type="checkbox"> </th>
+                         <th>Object</th>
+                         <th>Quantity</th>
+                         <th>Price</th>
+                         <th>Category</th>
+                         <th></th>
+                         <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>3D Printer</td>
+                        <td>1</td>
+                        <td>Bzaf</td>
+                        <td>xxxx</td>
+                        <td><i class="uil uil-edit-alt"></i></td>
+                        <td><i class="uil uil-trash-alt"></i></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>Printer</td>
+                        <td>4</td>
+                        <td>6000</td>
+                        <td>xxxx</td>
+                        <td><i class="uil uil-edit-alt"></i></td>
+                        <td><i class="uil uil-trash-alt"></i></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>i3 pc</td>
+                        <td>5</td>
+                        <td>15000</td>
+                        <td>xxxx</td>
+                        <td><i class="uil uil-edit-alt"></i></td>
+                        <td><i class="uil uil-trash-alt"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table2">
+                <thead>
+                    <tr>
+                         <th> <input type="checkbox"> </th>
+                         <th>Object</th>
+                         <th>Quantity</th>
+                         <th>Price</th>
+                         <th>Location (Row/Column)</th>
+                         <th></th>
+                         <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>LED</td>
+                        <td>300x50</td>
+                        <td>200</td>
+                        <td>01/14</td>
+                        <td><i class="uil uil-edit-alt"></i></td>
+                        <td><i class="uil uil-trash-alt"></i></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>Arduino</td>
+                        <td>19</td>
+                        <td>3500</td>
+                        <td>25/22</td>
+                        <td><i class="uil uil-edit-alt"></i></td>
+                        <td><i class="uil uil-trash-alt"></i></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>LDR</td>
+                        <td>26</td>
+                        <td>185</td>
+                        <td>10/31</td>
+                        <td><i class="uil uil-edit-alt"></i></td>
+                        <td><i class="uil uil-trash-alt"></i></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>Servo</td>
+                        <td>41</td>
+                        <td>210</td>
+                        <td>05/16</td>
+                        <td><i class="uil uil-edit-alt"></i></td>
+                        <td><i class="uil uil-trash-alt"></i></td>
+                    </tr><tr>
+                        <td><input type="checkbox"></td>
+                        <td>Water sensor</td>
+                        <td>16</td>
+                        <td>130</td>
+                        <td>01/14</td>
+                        <td><i class="uil uil-edit-alt"></i></td>
+                        <td><i class="uil uil-trash-alt"></i></td>
+                    </tr><tr>
+                        <td><input type="checkbox"></td>
+                        <td>HC-05</td>
+                        <td>9</td>
+                        <td>180</td>
+                        <td>25/22</td>
+                        <td><i class="uil uil-edit-alt"></i></td>
+                        <td><i class="uil uil-trash-alt"></i></td>
+                    </tr><tr>
+                        <td><input type="checkbox"></td>
+                        <td>IR-receiver</td>
+                        <td>7</td>
+                        <td>140</td>
+                        <td>10/31</td>
+                        <td><i class="uil uil-edit-alt"></i></td>
+                        <td><i class="uil uil-trash-alt"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table3">
+                <thead>
+                    <tr>
+                         <th> <input type="checkbox"> </th>
+                         <th>Title</th>
+                         <th>Realisateurs</th>
+                         <th>Fiche technique</th>
+                         <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>Drone</td>
+                        <td>300x50</td>
+                        <td>200</td>
+                        <td><i class="uil uil-print"></i></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>LineFollower</td>
+                        <td>19</td>
+                        <td>3500</td>
+                        <td><i class="uil uil-print"></i></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>Obstacles avoiding car</td>
+                        <td>26</td>
+                        <td>185</td>
+                        <td><i class="uil uil-print"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <button id="new">+</button>
+    
+       
+    </div> 
+
+    <div class="popup">
+        <div class="popup-content">
+            <button class="close">&times;</button>
+            <h2>New item:</h2>
+            <form>
+                <div class="details">
+                    <div class="input-box">
+                    <span>Item name:</span>
+                    <input type="text" required>
+                    </div>
+                    <div class="input-box">
+                    <span>Category:</span>
+                    <input type="text" required>
+                    </div>
+                    <div class="input-box">
+                    <span>Price:</span>
+                    <input type="text" required>
+                    </div>
+                    <div class="input-box">
+                    <span>Quantity:</span>
+                    <input type="text" required>
+                    </div>
+                    <button  class="button">SAVE</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+
+
+
+    <script>
+        document.getElementById("new").addEventListener("click", function(){
+            document.querySelector(".popup").style.display = "flex"
+        })
+
+        document.querySelector(".close").addEventListener("click", function(){
+            document.querySelector(".popup").style.display = "none"
+        })
+
+        var table1 = document.querySelector(".table1");
+        var table2 = document.querySelector(".table2");
+        var table3 = document.querySelector(".table3");
+
+        var inventaire = document.getElementById("inventaire");
+        var closet = document.getElementById("closet");            
+        var projects = document.getElementById("projects");
+
+        inventaire.onclick = function(){
+            table1.style.display = "table";
+            table3.style.display = "none";
+            table2.style.display = "none";
+            progress.style.width = "120px";
+        }
+        closet.onclick = function(){
+            table1.style.display = "none";
+            table3.style.display = "none";
+            table2.style.display = "table";
+            progress.style.width = "240px";
+        }
+
+        projects.onclick = function(){
+            table1.style.display = "none";
+            table2.style.display = "none";
+            table3.style.display = "table";
+            progress.style.width = "360px";
+        }
+    </script>
+</body>
+</html>

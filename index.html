@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="https://fonts.googleapis.com/css?family=IM+FELL+Great+Primer+SC&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+        <title>Gestionnaire De Stock</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="bluelogo.jfif" type="image/x-icon">
+    </head>
+    
+    <body>
+        <div class="bg">
+            <span class="centertext">CELEC <br> GESTIONNAIRE DE STOCK</span>
+            <div class="btn"><button type="button" id="login">Get Started</button> </div>
+            <span class="bottomtext">made to make the process much easier</span>
+            <div class="logo"></div>
+            <span class="uppertext">BIGGEST SCIENTIFIC CLUB IN ALGERIA SINCE 1987</span>
+            <div class="calendar"></div>
+        </div>
+
+        <div class="popup">
+            <div class="popup-content">
+                <button class="close">&times;</button>
+                <h2>Login to your account</h2>
+                <form>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit" class="button">Login</button>
+                    <p>Dont have an account? <br> 
+                        <a href="#" target="_blank">Ask a top admin for an account</a></p>
+                </form>
+                
+            </div>
+        </div>
+
+
+
+
+        <script>
+            document.getElementById("login").addEventListener("click", function(){
+                document.querySelector(".popup").style.display = "flex"
+            })
+
+            document.querySelector(".close").addEventListener("click", function(){
+                document.querySelector(".popup").style.display = "none"
+            })
+        </script>
+        
+    </body>
+</html> 
+    
+    
+    
